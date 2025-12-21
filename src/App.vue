@@ -123,7 +123,7 @@ export default {
 
         <v-btn text href="#">Home</v-btn>
         <v-btn text href="#About">About</v-btn>
-        <v-btn text href="#Skills">Skills</v-btn>
+        <v-btn text href="#Skills">Experience</v-btn>
         <v-btn text href="#Projects">Projects</v-btn>
         <v-btn text href="#Contact">Contact</v-btn>
       </v-row>
@@ -144,7 +144,7 @@ export default {
           <v-list>
             <v-list-item href="#">Home</v-list-item>
             <v-list-item href="#About">About</v-list-item>
-            <v-list-item href="#Skills">Skills</v-list-item>
+            <v-list-item href="#Skills">Experience</v-list-item>
             <v-list-item href="#Projects">Projects</v-list-item>
             <v-list-item href="#Contact">Contact</v-list-item>
           </v-list>
@@ -158,7 +158,7 @@ export default {
 
     <myInfoCom class="bg-none fil-content" loading="lazy" />
     <about class="bg-none fil-content" style="min-height: 100vh;" />
-    <!-- <skills class="bg-none fil-content" /> -->
+    <skills class="bg-none fil-content" />
     <!-- <projects class="bg-none fil-content" />
     <contact class="bg-none fil-content" /> -->
   </v-app>

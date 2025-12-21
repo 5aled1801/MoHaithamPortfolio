@@ -7,7 +7,7 @@ import App from './App.vue'
 import { inject } from '@vercel/analytics'
 
 inject()
-
+// AOS.init();
 
 // vuetify 
 import 'vuetify/styles'

@@ -1,5 +1,5 @@
 <template>
-    <v-container class="text-white relative file-content" id="About">
+    <v-container class="text-white relative file-content" id="About" >
         <v-row class="align-center justify-space-between absolute fil col-reverse mt-16 mb-16">
             <h1 class="text-h2 text-center my-2 py-16 w-100">About </h1>
             <h1 style="padding: 10px;font-size: 20px;line-height: 1.6;">
