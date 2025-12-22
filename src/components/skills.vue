@@ -85,7 +85,5 @@ li {
 }
 
 /* thickness */
-.bold-timeline :deep(.v-timeline-divider__line) {
-  width: 4px;
-}
+
 </style>

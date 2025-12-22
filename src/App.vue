@@ -159,8 +159,8 @@ export default {
     <myInfoCom class="bg-none fil-content" loading="lazy" />
     <about class="bg-none fil-content" style="min-height: 100vh;" />
     <skills class="bg-none fil-content" />
-    <!-- <projects class="bg-none fil-content" />
-    <contact class="bg-none fil-content" /> -->
+   <projects class="bg-none fil-content" />
+   <!-- <contact class="bg-none fil-content" /> -->
   </v-app>
 </template>
 <style scoped>
