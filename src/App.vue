@@ -165,7 +165,7 @@ export default {
     <about class="bg-none fil-content" style="min-height: 100vh;" />
     <skills class="bg-none fil-content" />
    <projects class="bg-none fil-content" />
-   <!-- <contact class="bg-none fil-content" /> -->
+   <contact class="bg-none fil-content" />
   </v-app>
 </template>
 <style scoped>

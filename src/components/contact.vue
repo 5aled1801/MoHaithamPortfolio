@@ -1,78 +1,42 @@
-<template id="Contact">
+<template id="Contact" >
 
     <!-- Background Shapes -->
     <div class="shape shape1"></div>
     <div class="shape shape2"></div>
     <div class="shape shape3"></div>
 
-    <v-container class="mt-10">
+    <v-container class="mt-10 ">
 
         <h2 class="contact-title">Let's Work Together</h2>
 
-        <v-row justify="center">
-            <v-col cols="12" md="6">
 
-                <form @submit.prevent="sendEmail" class="contact-form">
+        <v-row justify="center "  class="link-item  align-center text-white  text-h5 pb-16" >
 
-                    <!-- Name -->
-                    <div class="input-group">
-                        <i class="fa-solid fa-user input-icon"></i>
-                        <input type="text" v-model="form.name" required />
-                        <label>Your Name</label>
-                    </div>
+<v-col cols="12" class="text-center gap-2 d-flex justify-center" style="gap: 40px; ">
 
-                    <!-- Email -->
-                    <div class="input-group">
-                        <i class="fa-solid fa-envelope input-icon"></i>
-                        <input type="email" v-model="form.email" required />
-                        <label>Your Email</label>
-                    </div>
+    <v-icon @click="openLink('https://www.linkedin.com/in/muhammed-haitham/')" class="social-icon">
+        mdi-linkedin
+    </v-icon>
+    <v-icon  @click="openLink('tel:+201205464703')" class="social-icon">
+        mdi-phone
+    </v-icon>
+    <v-icon  @click="openLink('mailto:mohamedhaithem240@gmail.com')" class="social-icon">
+        mdi-gmail
+    </v-icon>
+</v-col>
+             <v-col cols="12" class="text-center"> 
+                <v-btn class="text-none" prepend-icon="mdi-whatsapp" rounded="lg"  color="green-darken-1" @click="openLink(`https://wa.me/201205464703`)">
+                    Chat on what'sapp
+                </v-btn>
+             </v-col>   
+                
+            </v-row>
 
-                    <!-- Message -->
-                    <div class="input-group textarea-group">
-                        <i class="fa-solid fa-message input-icon"></i>
-                        <textarea v-model="form.message" required></textarea>
-                        <label>Your Message</label>
-                    </div>
-                    <v-row justify="center">
-
-                        <!-- Button -->
-                        <button type="submit" class="send-btn center-align">
-                            Send Message
-                        </button>
-                    </v-row>
-
-                </form>
-
-            </v-col>
-        </v-row>
-        <v-row justify="center " style="gap: 50px;">
-
-            <div class="link-item d-flex gap-1 align-center text-white mb-4 text-h5" style="gap: 15px;">
-
-                <v-icon @click="openLink('https://www.linkedin.com/in/khaled-hassan-2820b4248')" class="social-icon">
-                    mdi-linkedin
-                </v-icon>
-                <v-icon @click="openLink('https://github.com/5aled1801')" class="social-icon">
-                    mdi-github
-                </v-icon>
-
-
-
-            </div>
-            <div class="link-item d-flex gap-1 align-center text-white mb-4 text-h5">
-                <v-icon>mdi-phone</v-icon>
-                <h1 class="text-h5">+201284456019</h1>
-            </div>
-
-
-
-        </v-row>
         <v-row>
 
             <v-col>
                 <div class="text-center text-white">
-                    <p>&copy; 2025 Khaled Hassan. All rights reserved.</p>
+                    <p>&copy; 2025 Mohamed Haitham. All rights reserved.</p>
                 </div>
             </v-col>
         </v-row>
@@ -130,6 +94,11 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.social-icon:hover{
+    transition: 0.5s all ease-in-out;
+    color:#00838F
+
 }
 
 /* Title */
