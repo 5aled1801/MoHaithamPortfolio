@@ -1,8 +1,4 @@
-<script setup>
-const showSection = (id) => {
-  history.replaceState(null, "", `#${id}`)
-}
-</script>
+
 <script>
 import myInfoCom from './components/myInfo.vue';
 import about from './components/about.vue';
@@ -67,6 +63,11 @@ export default {
   },
   beforeUnmount() {
     if (this.vantaEffect) this.vantaEffect.destroy();
+  },
+  methods:{
+    openWhats(){
+      window.open('https://wa.me/201205464703', '_blank')
+    }
   }
 };
 </script>
@@ -158,17 +159,45 @@ export default {
     </v-app-bar>
     <v-container class="bg-none">
       <div ref="vanta" class="vanta-bg" id="vanta"> </div>
-
     </v-container>
+
+    <v-icon @click="openWhats()"
+
+    class="wapp text-h3 text-white bg-success position-fixed right-0 mx-4 mb-4  rounded-circle" style="z-index: 100000;bottom:10px">
+      mdi-whatsapp
+    </v-icon>
 
     <myInfoCom class="bg-none fil-content" loading="lazy" />
     <about class="bg-none fil-content" style="min-height: 100vh;" />
     <skills class="bg-none fil-content" />
    <projects class="bg-none fil-content" />
    <contact class="bg-none fil-content" />
+
   </v-app>
 </template>
 <style scoped>
+  .wapp {
+  position: relative;
+  border-radius: 50%;
+  animation: pulseFloat 2.5s ease-in-out infinite;
+}
+
+@keyframes pulseFloat {
+  0% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+  }
+  50% {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 0 0 18px rgba(37, 211, 102, 0);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+
 .v-toolbar-title svg {
   max-width: 120px;
   height: auto;

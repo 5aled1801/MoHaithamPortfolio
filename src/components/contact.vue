@@ -33,7 +33,7 @@
             </v-row>
 
         <v-row>
-
+s
             <v-col>
                 <div class="text-center text-white">
                     <p>&copy; 2025 Mohamed Haitham. All rights reserved.</p>
