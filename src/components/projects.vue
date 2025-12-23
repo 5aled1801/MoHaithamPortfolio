@@ -103,20 +103,7 @@
                             <img src="../assets/images/e-commerce/upselling.png" alt="" width="100%">
 
                         </v-card>
-                    </v-col>
-                    <v-col cols="12" md="12" lg="6">
-                        <v-card>
-                            <v-card-title>Performance campaigns (Purchases) </v-card-title>
-                            <v-card-subtitle>2nd client</v-card-subtitle>
-                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases).png" alt=""
-                                width="100%">
-                                
-                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases)2.png" alt=""
-                                width="100%">
-
-                        </v-card>
-                    </v-col>
-                    <v-col cols="12" md="12" lg="6">
+                    </v-col><v-col cols="12" md="12" lg="6">
                         <v-card>
                             <v-card-title>Performance campaigns (Purchases) </v-card-title>
 
@@ -128,6 +115,19 @@
 
                         </v-card>
                     </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (Purchases) </v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases).png" alt=""
+                                width="100%">
+
+                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases)2.png" alt=""
+                                width="100%">
+
+                        </v-card>
+                    </v-col>
+                    
                     <v-col cols="12" md="12" lg="6"></v-col>
                     <v-col cols="12">
 
