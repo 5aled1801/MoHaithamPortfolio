@@ -1,3 +1,8 @@
+<script setup>
+const showSection = (id) => {
+  history.replaceState(null, "", `#${id}`)
+}
+</script>
 <script>
 import myInfoCom from './components/myInfo.vue';
 import about from './components/about.vue';

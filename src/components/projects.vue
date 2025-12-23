@@ -53,7 +53,7 @@
                             <img src="../assets/images/leads/performance camp(metaLeads2.png" alt="" width="100%">
                         </v-card>
                     </v-col>
-                        <v-col cols="12" md="12" lg="6">
+                    <v-col cols="12" md="12" lg="6">
                         <v-card>
                             <v-card-title>Google Campaigns</v-card-title>
                             <img src="../assets/images/leads/2222.png" alt="" width="100%">
@@ -63,8 +63,169 @@
                     </v-col>
                 </v-row>
 
-                </v-window-item>
-            </v-window>
+            </v-window-item>
+
+            <v-window-item value="2">
+                <h1 class="text-h5 text-center py-4 ">Performance "E-commerce"</h1>
+                <v-row>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (Meta)</v-card-title>
+                            <v-card-subtitle>1st client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/meta.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (TikTok)</v-card-title>
+                            <v-card-subtitle>1st client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/tiktok.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (Purchases)</v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/purchases.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Shopify dashboard</v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/shopify dash.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>UP selling & Abandoned cart </v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/upselling.png" alt="" width="100%">
+
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (Purchases) </v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases).png" alt=""
+                                width="100%">
+                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases)2.png.png" alt=""
+                                width="100%">
+
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (Purchases) </v-card-title>
+
+                            <v-card-subtitle>3rd client</v-card-subtitle>
+
+                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases) client3.png" alt=""
+                                width="100%">
+
+
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6"></v-col>
+                    <v-col cols="12">
+
+                        <h1 class="text-h4 text-center py-6 bolder ">Ecommerce "retail marketplace"</h1>
+                    </v-col>
+
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Shopify dashboard </v-card-title>
+                            <v-card-subtitle>1st client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/ret/dash1st.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (Purchases)</v-card-title>
+                            <v-card-subtitle>1st client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/ret/1stpurchases.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (Purchases)</v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/ret/2ndpur.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Branding campaigns</v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/ret/bra.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (Purchases)</v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/ret/xxxx.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Branding & messages campaigns</v-card-title>
+                            <v-card-subtitle>2nd client</v-card-subtitle>
+                            <img src="../assets/images/e-commerce/ret/zzzz.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                </v-row>
+
+            </v-window-item>
+            <v-window-item value="3">
+                <h1 class="text-h5 text-center py-4 ">Saas</h1>
+                <p class="text-h6 text-center py-4"><span class="text-blue text-h5 ">Client X,</span>1st Shipping gateway in the MENA region connecting e-commerce stores and shipping
+                    companies</p>
+                <v-row>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Performance campaigns (sign-ups - 1st shipment)</v-card-title>
+                            <!-- <v-card-subtitle>Conversion Rate is: 22%</v-card-subtitle> -->
+                            <img src="../assets/images/saas/1.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>Branding campaigns</v-card-title>
+                            <!-- <v-card-subtitle>Conversion Rate is: 22%</v-card-subtitle> -->
+                            <img src="../assets/images/saas/2.png" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                   
+                    
+                </v-row>
+
+            </v-window-item>
+            <v-window-item value="4">
+                <h1 class="text-h5 text-center py-4 ">App & website booking</h1>
+                
+                <v-row>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>1st client - website booking services</v-card-title>
+                            <!-- <v-card-subtitle>Conversion Rate is: 22%</v-card-subtitle> -->
+                            <img src="../assets/images/ther/1.jpg" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <v-card-title>2nd client - A mobile application located in KSA</v-card-title>
+                            <!-- <v-card-subtitle>Conversion Rate is: 22%</v-card-subtitle> -->
+                            <img src="../assets/images/ther/2.jpg" alt="" width="100%">
+                        </v-card>
+                    </v-col>
+                   
+                    
+                </v-row>
+
+            </v-window-item>
+        </v-window>
     </v-container>
 </template>
 
@@ -73,7 +234,7 @@ export default {
     name: 'Projects',
     data() {
         return {
-            tab: 0
+            tab: 1
         }
     }
 };
@@ -82,12 +243,13 @@ export default {
 <style scoped>
 .v-btn {
     font-size: 13px;
-    background:rgba(16, 100, 209, 0.349);
+    background: rgba(16, 100, 209, 0.349);
     margin-inline-end: 10px;
     color: rgb(255, 255, 255);
-    
+
 }
-.v-card{
-        min-height: 365px !important;
+
+.v-card {
+    min-height: 365px !important;
 }
 </style>
