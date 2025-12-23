@@ -110,7 +110,8 @@
                             <v-card-subtitle>2nd client</v-card-subtitle>
                             <img src="../assets/images/e-commerce/Performance campaigns (Purchases).png" alt=""
                                 width="100%">
-                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases)2.png.png" alt=""
+                                
+                            <img src="../assets/images/e-commerce/Performance campaigns (Purchases)2.png" alt=""
                                 width="100%">
 
                         </v-card>
