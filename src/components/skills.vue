@@ -51,10 +51,10 @@ const experiences = [
     company: " MarketKing company, New Cairo",
     color: "primary",
     points: [
-      "Create and manage Campaigns on different platforms",
-      "full website Auditing & Conversion Rate Optimization (CRO)",
-      "Full Website tracking through GTM & other CMS",
-      "Landing page structure & design","Create and manage paid media strategies ","A/B testing, optimizing, scaling all paid media campaigns Across Multiple Channels","proceed on effective ads to drive better fit branding, Conversions, Revenue for the brand "
+      "Performance marketing plans for B2C (eCommerce, lead generation), and B2B (SAAS, etc).",
+      "Built and maintained advanced tracking and analytics setups GTM, GA4, Mixpanel,conversion APIs.",
+      "Planned, executed, and scaled as a paid social and paid search on all media platforms.",
+      "Owned full-funnel optimization, improving acquisition, retention, ROAS, CAC, and customer LTV.","Improved performance through CRO initiatives, landing page optimization, and A/B testing.","Delivered performance reporting and insights, translating data into decisions.","Collaborated with other teams on content direction, pricing strategy, and growth planning."
     ]
   },
   {

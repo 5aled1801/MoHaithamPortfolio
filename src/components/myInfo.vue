@@ -13,7 +13,7 @@
 
                 <!-- Image Section -->
                 <v-col cols="12" md="5" class="d-flex align-center justify-center h-25 h-md-25 max-w-sm-50">
-                    <img src="./../assets/images/profilePhoto.jpg" alt="Khaled Hassan" class="w-100 h-50 rounded" lazy
+                    <img src="./../assets/images/offical image.jpg" alt="Khaled Hassan" class="w-100 h-50 rounded" lazy
                         loading="lazy">
                 </v-col>
             </v-row>
