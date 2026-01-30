@@ -14,7 +14,7 @@
                 
                 <h1 class="text-h2 text-center my-2 py-16 w-100 ">What I Do?</h1>
                 <div class="images-wrapper d-flex flex-wrap justify-center align-center">
-                    <img v-for="(img, index) in IDo" :key="index" :src="getImage(img)"
+                    <img v-for="(img, index) in IDo" :key="index" :src="getImage(img)" loading="lazy"
                         class="what-i-do-img w-50 px-4 bg-white mx-2 my-4 rounded"
                         style="height:190px;object-fit:contain; max-width:350px;  "
                         alt="what i do" />
