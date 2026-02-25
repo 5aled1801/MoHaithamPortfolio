@@ -15,9 +15,9 @@
                 <v-tab value="3">
                     Saas
                 </v-tab>
-                <!-- <v-tab value="4">
-                    Other Fields
-                </v-tab> -->
+                 <v-tab value="4">
+                    Mobile Apps
+                </v-tab> 
             </v-tabs>
         </v-row>
         <v-window v-model="tab" class="my-8 w-100">
@@ -201,6 +201,26 @@
                         </v-card>
                     </v-col>
 
+                </v-row>
+
+            </v-window-item><v-window-item value="4">
+                <h1 class="text-h5 text-center py-4 ">Mobile Apps</h1>
+
+                <v-row>
+
+                    <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <!-- <v-card-subtitle>Conversion Rate is: 22%</v-card-subtitle> -->
+                            <img src="../assets/images/ther/1.jpg" alt="" width="100%">
+                        </v-card>
+                    </v-col> <v-col cols="12" md="12" lg="6">
+                        <v-card>
+                            <!-- <v-card-subtitle>Conversion Rate is: 22%</v-card-subtitle> -->
+                            <img src="../assets/images/ther/2.jpg" alt=""
+                                width="100%">
+                        </v-card>
+                    </v-col>
+                    
                 </v-row>
 
             </v-window-item>
